@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e1e6ec;
+  transform-style: preserve-3d;
+}
+
+.img {
+  max-width: 500px;
+  width: 100%;
+  position: absolute;
+}
+.img.-base {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.07), 0 6.7px 5.3px rgba(0, 0, 0, 0.05), 0 12.5px 10px rgba(0, 0, 0, 0.042), 0 22.3px 17.9px rgba(0, 0, 0, 0.035), 0 41.8px 33.4px rgba(0, 0, 0, 0.028), 0 100px 80px rgba(0, 0, 0, 0.02);
+}
+.img.-clip {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+  pointer-events: none;
+  transition: opacity 0.2s;
+  opacity: 0;
+}/*# sourceMappingURL=style.css.map */
